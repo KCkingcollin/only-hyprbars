@@ -1,19 +1,13 @@
-# hyprland-plugins
+# Castle Shell Plugins
+The official plugins that will come with castle shell
+## Installation
 
-This repo houses official plugins for Hyprland.
+```
+hyprpm add https://github.com/KCkingcollin/castle-shell-plugins
+hyprpm enable hyprbars
+```
 
-> [!IMPORTANT]
-> hyprland-plugins only officially supports installation via `hyprpm`.
-> hyprland-plugins follows hyprland-git and requires you to be on hyprland-git
-> or tagged >= v0.33.1.
-
-# Plugin list
- - borders-plus-plus -> adds one or two additional borders to windows
- - csgo-vulkan-fix -> fixes custom resolutions on CS:GO with `-vulkan`
- - hyprbars -> adds title bars to windows
- - hyprexpo -> adds an expo-like workspace overview
- - hyprtrails -> adds smooth trails behind moving windows
- - hyprwinwrap -> clone of xwinwrap, allows you to put any app as a wallpaper
+Note: Unless they fixed it the extra repo is missing a depend for hyprpm you'll need ``hyprwayland-scaner`` to get hyprland plugins to build.
 
 # Nix
 
@@ -58,4 +52,4 @@ this:
 
 Feel free to open issues and MRs with fixes.
 
-If you want your plugin added here, contact vaxry beforehand.
+be aware I'm not the originator of some of these apps, go upstream for issues with hyprbars, or expo, but if you have issues installing I'd be happy to help.
